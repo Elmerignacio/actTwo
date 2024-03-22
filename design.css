@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto';
+}
+body{
+  background-color: #9C5AC5;
+} 
+
+img{
+width:350px ;
+height: 350px;
+filter: drop-shadow(30px 30px 30px  black);
+transition: 1s;
+margin-left: 50px;
+border-radius: 56% 44% 73% 27%/ 45% 68% 32% 55%;
+}
+.imgs:hover{
+transform: scale(1.2);
+
+}
+.container{
+  max-width: 1200px;
+  margin-top: 120px;
+  margin-left:auto ;
+  margin-right: auto;
+  display: flex;
+
+}
+.leftDiv{
+padding: 1rem;
+margin-top: 200px;
+margin-left: 100px;
+
+}
+.rightDiv{
+  padding: 1rem;
+  margin-top: 100px;
+}
+
+.para{
+font-size:large ;
+font-family: arial;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 500px;
+color: white;
+}
+
+.button1,
+.button2,
+.button3,
+.button4{
+  padding:7px;
+  border-radius: 5px;
+  color:  white;
+  background-color: #9C5AC5;
+  border: 2px solid  #CDB4FF;
+  margin: 5px;
+
+  
+}
+.button1:hover{
+  background-color: #CDB4FF;
+  color: black;
+}
+.button2:hover{
+  background-color: #CDB4FF;
+      color: black;
+}
+.button3:hover{
+  background-color: #CDB4FF;
+      color: black;
+}
+.button4:hover{
+  background-color: #CDB4FF;
+      color: black;
+}
+.marginbutton{
+margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  font-size: large;
+  font: bold;
+  color: white;
+  }
+  li{
+  list-style-type: none;
+  padding: 15px;
+
+}
+  ul{
+  display: flex;
+  justify-content: end;
+  margin-right: 17px;
+  }
+  nav{
+  background-color:#7d4299;
+  padding: 5px;
+  }
+  .a:hover{
+    color: white;
+    text-decoration: 2px #CDB4FF underline;
+    }
+    .b:hover{
+    color: white;
+    text-decoration: 2px #CDB4FF underline;
+    }
+    .c:hover{
+    color: white;
+    text-decoration: 2px #CDB4FF underline;
+    }
+    .d:hover{
+    color: white;
+    text-decoration: 2px #CDB4FF underline;
+    }
+    .e:hover{
+        color: white;
+        text-decoration: 2px #CDB4FF underline;
+    }
+  
+  .name{
+  color:whitesmoke;
+  
+  }
+  
